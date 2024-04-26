@@ -1,0 +1,380 @@
+body {
+    font-family: Arial, Tahoma;
+    margin: 0
+}
+
+.container {
+    width: 1170px;
+    margin: auto
+}
+
+.clean {
+    clear: both
+}
+
+.header .slider {
+    height: 600px;
+    background-image: url('../img/c4s-gif1-ezgif.com-gif-to-webp-converter.webp');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header .slider .intro {
+    padding-top: 150px;
+    color: #ffffff;
+    text-align: center
+}
+
+.header .slider .intro h2 {
+    display: inline-block;
+    border-top: 4px solid rgb(207, 196, 196);
+    border-bottom: 4px solid rgb(207, 196, 196);
+    font-size: 50px;
+    padding: 0px 5px;
+    color: rgb(207, 196, 196)
+}
+
+.header .slider .intro button {
+    display: inline-block;
+    background: none;
+    color: #d40303;
+    padding: 10px 25px;
+    font-size: 22px;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(0, 0, 0);
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+main {
+    display: block;
+    background-color: #FFF;
+    background-size: cover;
+    height: 92vh;
+}
+
+.navbar {
+    height: 65px;
+    background-color: #be0505;
+    color: #fcfcfc
+}
+
+.navbar .logo span {
+    color: #000000
+}
+
+.navbar h2 {
+    text-transform: uppercase;
+    margin-top: 17px;
+}
+
+.navbar ul {
+    list-style: none;
+    float: right;
+    margin: 23px
+}
+
+.navbar ul li {
+    color: #ffffff;
+    display: inline;
+    padding-right: 15px
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none
+}
+
+.navbar ul a.active,
+.navbar ul li a:hover {
+    color: #ffffff
+}
+
+.tópico {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px
+}
+
+.tópico .feat {
+    width: 33.333333%;
+    height: 150px;
+
+}
+
+.tópico .feat p {
+    width: 95%
+}
+
+.sobre {
+    color: #ffffff;
+    min-height: 457px;
+    background-color: #F2F2F2
+}
+
+.sobre .image {
+    float: left;
+    width: 45%;
+    margin-top: 70px;
+
+}
+
+.sobre .info {
+    width: 50%;
+    overflow: hidden
+}
+
+.sobre .info h2 {
+    margin-bottom: -5px
+}
+
+.sobre .info .hist .content {
+    width: 50%
+}
+
+.sobre.info .hist .content .icon {
+    width: 14%;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+
+.sobre .info .hist .content img {
+    max-width: 100%
+}
+
+.sobre .info .hist .content .text {
+    width: 80%
+}
+
+.sobre .info .hist .content .text h3 {
+    margin-bottom: 0
+}
+
+.sobre .info .hist .content .text p {
+    margin-top: 6px
+}
+
+
+.rodapé {
+    background-color: #d40303;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.rodapé p {
+    width: 95%
+}
+
+.rodapé button {
+    display: inline-block;
+    background: none;
+    color: #2ecc71;
+    padding: 9px 26px;
+    border: 2.5px solid #2ecc71;
+    margin-top: 10px;
+    font-size: 15px
+}
+
+.Produção hr {
+    border: 0;
+    height: 1px;
+    background-color: #999
+}
+
+.Produção .main {
+    width: 50%
+}
+
+.Produção .main h2 {
+    margin-left: 40px
+}
+
+.Produção .main p {
+    width: 90%;
+    margin-left: 40px
+}
+
+.Produção .exp {
+    float: left;
+    width: 45%;
+    padding-left: 5%
+}
+
+.elétricos {
+    text-align: center;
+    background-color: #d40303;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px
+}
+
+.elétricos p {
+    font: bold italic 18px Arial, Tahoma, "Arial Black"
+}
+
+.elétricos p q {
+    line-height: 1.7
+}
+
+.elétricos ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0
+}
+
+.elétricos ul li {
+    width: 15px;
+    height: 15px;
+    border: 1.5px solid #2Dcc70;
+    margin-right: 8px;
+}
+
+.elétricos ul li.active,
+.elétricos ul li:hover {
+    background-color: #2Dcc70;
+    cursor: pointer
+}
+
+.Modelos {
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center
+}
+
+.Modelos p {
+    margin-bottom: 40px;
+    width: 90%
+}
+
+.Modelos .icon {
+    display: inline-block;
+    margin-bottom: 25px
+}
+
+.Modelos img {
+    border: 1px solid #CCC;
+    padding: 8px;
+    margin: 4px
+}
+
+.CONTATO {
+    background-color: #ac0505;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.CONTATO .info {
+    width: 50%
+}
+
+.CONTATO .info h2 {
+    color: #FFF;
+    margin-left: 40px
+}
+
+.CONTATO .info p {
+    margin-left: 40px
+}
+
+.CONTATO .info p:last-of-type {
+    margin-top: -13px
+}
+
+.CONTATO .info strong {
+    color: #D1D6DA;
+    margin-right: 40px
+}
+
+.CONTATO .form {
+    width: 50%
+}
+
+.CONTATO .img {
+    align-items: center;
+}
+
+.footer {
+    background-color: #ca0707;
+    color: #6A6E71;
+    overflow: hidden;
+    padding-bottom: 0px
+}
+
+.footer {
+    text-align: center
+}
+
+.footer ul {
+    list-style: none
+}
+
+.footer ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px
+}
+
+.footer ul li a {
+    color: #000000
+}
+
+.footer ul li a:hover {
+    color: #FFF
+}
+
+.fl-left {
+    float: left
+}
+
+p {
+    line-height: 1.7;
+    color: #000000
+}
+
+h2,
+h3 {
+    color: #000000
+}
+
+button,
+input[type="submit"] {
+    cursor: pointer
+}
